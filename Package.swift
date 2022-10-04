@@ -5,6 +5,9 @@ import PackageDescription
 
  let package = Package(
      name: "CardIO",
+     platforms: [
+         .iOS("11")
+     ],
      products: [
          .library(
              name: "CardIO",
